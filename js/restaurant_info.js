@@ -74,7 +74,7 @@ name.tabIndex = 0;
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
-  image.alt = restaurant.name + 'Restaurarant';
+  image.alt = restaurant.name + 'Restaurant';
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
